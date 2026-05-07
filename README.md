@@ -1,84 +1,224 @@
-# Week 2 Assignment
+# Lumina E-Commerce
 
-## Project Overview
+A modern full-stack MERN e-commerce web application built with React, Node.js, Express, and MongoDB.
 
-This is a modern e-commerce web application called "Lumina" built as part of a week 2 internship assignment. The app allows users to browse a curated selection of luxury fashion products, including accessories, bags, outerwear, footwear, and clothing. Key features include user authentication, product search and filtering by category, shopping cart functionality, and a responsive design optimized for both desktop and mobile devices.
+---
 
-The application demonstrates fundamental React concepts such as state management, component composition, and local storage for data persistence.
+## 🚀 Features
 
-## Features
+### User Features
 
-- **Product Catalog**: Browse a collection of high-quality fashion items with detailed descriptions and images
-- **User Authentication**: Simple login system with local storage persistence
-- **Shopping Cart**: Add, remove, and manage items in the cart with quantity controls
-- **Search & Filter**: Search products by name and filter by category
-- **Responsive Design**: Mobile-first design using Tailwind CSS
-- **Modern Tech Stack**: Built with React, Vite, and Tailwind CSS for fast development and performance
+* User Authentication (Login & Signup)
+* Product Listing
+* Add to Cart
+* Responsive Design
+* API Integration
+* Modern UI/UX
+* Product Search & Filtering
+* Toast Notifications
+* Smooth Navigation
 
-## Installation
+### Admin Features
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
-   ```
+* Product Management
+* Dashboard UI
+* Order Management
+* User Control
 
-2. Install dependencies:
-   ```
-   npm install
-   ```
+---
 
-## How to Run
+# 🛠️ Tech Stack
 
-To start the development server:
+## Frontend
+
+* React.js
+* Vite
+* Tailwind CSS / CSS
+* Axios
+* React Router
+
+## Backend
+
+* Node.js
+* Express.js
+* MongoDB
+* Mongoose
+* JWT Authentication
+
+## Deployment
+
+* Frontend: Vercel
+* Backend: Render
+* Database: MongoDB Atlas
+
+---
+
+# 📂 Project Structure
+
+```bash
+lumina-ecommerce/
+│
+├── client/
+│   ├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   └── services/
+│
+├── server/
+│   ├── routes/
+│   ├── controllers/
+│   ├── models/
+│   ├── middleware/
+│   └── config/
+│
+├── package.json
+└── README.md
 ```
+
+---
+
+# ⚙️ Installation & Setup
+
+## 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/lumina-ecommerce.git
+```
+
+```bash
+cd lumina-ecommerce
+```
+
+---
+
+## 2️⃣ Install Dependencies
+
+### Frontend
+
+```bash
+cd client
+npm install
+```
+
+### Backend
+
+```bash
+cd server
+npm install
+```
+
+---
+
+# 🔐 Environment Variables
+
+Create a `.env` file inside the server folder.
+
+```env
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+PORT=5000
+```
+
+---
+
+# ▶️ Run Project Locally
+
+## Start Backend
+
+```bash
+npm run start:server
+```
+
+## Start Frontend
+
+```bash
 npm run dev
 ```
 
-This will launch the app at `http://localhost:5173` (or similar, check the terminal output).
+---
 
-To build for production:
-```
-npm run build
-```
+# 🌐 API Endpoint
 
-To preview the production build locally:
-```
-npm run preview
+```bash
+http://localhost:5000/api
 ```
 
-## Technologies Used
+Expected Response:
 
-- **React**: For building the user interface
-- **Vite**: For fast development and build tooling
-- **Tailwind CSS**: For utility-first styling
-- **PostCSS**: For CSS processing
-- **Lucide React**: For icons
-- **Local Storage**: For client-side data persistence
-
-## Project Structure
-
-```
-src/
-├── App.jsx          # Main application component
-├── main.jsx         # Application entry point
-└── index.css        # Global styles and Tailwind imports
-
-Other files:
-├── index.html       # HTML template
-├── package.json     # Dependencies and scripts
-├── tailwind.config.js # Tailwind configuration
-└── postcss.config.js  # PostCSS configuration
+```json
+{"message":"Lumina API running"}
 ```
 
-## Contributing
+---
 
-Feel free to submit issues and pull requests.
+# ☁️ Deployment
 
-## License
+## Frontend Deployment
 
-This project is licensed under the MIT License.
+Deploy frontend using:
 
-## License
+* Vercel
 
-This project is licensed under the MIT License.
+## Backend Deployment
+
+Deploy backend using:
+
+* Render
+
+## Database
+
+Use:
+
+* MongoDB Atlas
+
+---
+
+# 🎨 UI/UX Highlights
+
+* Clean Modern Design
+* Responsive Layout
+* Mobile Friendly
+* Smooth Animations
+* Product Hover Effects
+* Interactive Cart UI
+* Professional Color Palette
+
+---
+
+# 📸 Future Improvements
+
+* Wishlist System
+* Payment Gateway Integration
+* AI Product Recommendations
+* Order Tracking
+* Dark Mode
+* Chatbot Assistant
+* Admin Analytics Dashboard
+
+---
+
+# 🧠 Learning Outcomes
+
+This project demonstrates:
+
+* Full Stack MERN Development
+* REST API Integration
+* Authentication System
+* MongoDB Database Management
+* Frontend & Backend Deployment
+* Modern UI/UX Design
+
+---
+
+# 👨‍💻 Author
+
+Dhruvil
+
+Passionate Designer & Developer focused on creating modern and impactful web applications.
+
+---
+
+# 📄 License
+
+This project is created for educational and internship purposes.
